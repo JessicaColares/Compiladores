@@ -1,0 +1,16 @@
+========================================
+Compiladores
+trabalho 10
+Jessica de Figueredo Colares 
+220600360
+=======================================
+
+AVISO IMPORTANTE!!!
+
+Para executar o código use:
+python geradorEduMIPS64.py exemplo.tac
+
+Ele mesmo ira gerar o arquivo em assembly para o EduMIPS64.
+Garantirá que o enconding do arquivo esteja correto,
+para não ocorrer erros de compatibilidade, 
+como bem sabemos EduMIPS64 é bem chatinho com essas coisas.

@@ -1,0 +1,26 @@
+================================
+Compiladores
+Trabalho 11
+Jessica de Figueredo Colares 
+22060036
+================================
+
+AVISO IMPORTANTE!
+
+Passo a passo
+
+1. Para transformar de miniC para 3 endereços:
+    
+    python main.py input.c
+    
+    exemplo: python main.py test1.c
+    Ele vai criar o arquivo .tac, mas também vai imprimir no terminal
+
+2. Para trasnformar de 3 endereços para assembly do edumips64:
+
+    python geradorEduMIPS64.py input.tac
+
+    exemplo: python geradorEduMIPS64.py test1.tac
+    Ele vai criar o arquivo .s, de maneira que seja aceitável no bendito edumips64
+
+3. No edumips64 apenas clique em open file e selecione o arquivo .s, input.s
