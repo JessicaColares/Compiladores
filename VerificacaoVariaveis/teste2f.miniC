@@ -1,0 +1,7 @@
+int main() {
+    char c = 'a';
+    char d = 'b';
+    int x = c + d; 
+    int y = c * d; 
+    return 0;
+}

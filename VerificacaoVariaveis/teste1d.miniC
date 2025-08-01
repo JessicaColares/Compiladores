@@ -1,0 +1,9 @@
+int soma(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    char c = 'a';
+    soma(c, 10); // primeiro argumento deve ser int
+    return 0;
+}

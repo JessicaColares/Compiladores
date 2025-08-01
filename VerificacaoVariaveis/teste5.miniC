@@ -1,0 +1,18 @@
+int main() {
+    int x = 10;
+    char c = 'a';
+    
+    break;
+    continue;
+    
+    while (x > 0) {
+        x--;
+        if (x == 5) {
+            break;
+        }
+    }
+    
+    c = x;  // char = int
+    
+    return 0;
+}

@@ -1,0 +1,8 @@
+int main() {
+    char c = 'a';
+    int x = 10;
+    
+    c = x; // atribuicao de int para char
+    x += c; // operacao composta com tipos diferentes
+    return 0;
+}

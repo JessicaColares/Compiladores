@@ -1,0 +1,14 @@
+int global = 10;
+
+int func() {
+    int local = 5;
+    global = local;   
+    x = 10;           
+    return local;
+}
+
+int main() {
+    int local = func(); 
+    global = local;    
+    return 0;
+}

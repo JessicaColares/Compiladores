@@ -1,0 +1,27 @@
+int soma(int a, int b) {
+    char c = a;
+    return a + b;
+}
+
+int main() {
+    int x = 5;
+    char y = 'y';
+    
+    
+    int z = x + y;
+    int w = soma(x, y);
+    int v = soma(1, 2, 3);
+    
+    
+    if (1) {
+        int x = 10;
+        break;
+    }
+    
+    while (x > 0) {
+        x--;
+        continue;
+    }
+    
+    return 0;
+}
