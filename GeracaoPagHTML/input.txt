@@ -1,0 +1,13 @@
+# Exemplo de formulário com todas as funcionalidades
+
+TEXTO 40 5 "Digite seu nome:"
+
+ESCOLHAUMA "Qual seu gênero?" ("Masculino", "Feminino", "Outro")
+
+ESCOLHAVARIAS "Que família olfativa você prefere?" ("Frutal", "Floral", "Oriental", "Amadeirado", "Cítricos", "Verde", "Refrescante")
+
+MENU "menu1" "Escolha seu perfume:" ("olympea pacco rabanne" "Olympea Pacco Rabanne", "j'adore Dior" "J'adore Dior", "yara Lattafa" "Yara Lattafa", "light blue dolce & gabanna" "Light Blue Dolce & Gabanna")
+
+BOTAO "Adicionar ao Carrinho!" "Olá! Seu produto foi adicionado a cesta de compras, para visualizar clique no carrinho no canto superior direito."
+
+TABELA "Preços dos Produtos" ("Perfume", "Valor", "Tamanho") ("Olympea Pacco Rabanne", "R$ 459,00", "30ml") ("J'adore Dior", "R$ 579,90", "30ml") ("Yara Lataffa", "R$ 249,89", "100ml") ("Light Blue Dolce & Gabanna", "R$ 475,00", "20ml")
