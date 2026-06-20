@@ -1,0 +1,8 @@
+Trabalho 03 - Avaliação de Expressões usando Listeners
+Este trabalho é individual.
+
+Baseado nos slides use o padrão de projeto LISTENER para implementar a execução das seguinte operações: fatorial, valor absoluto, potenciação, divisão, multiplicação, soma e subtração, sendo que as expressões podem estar entre parêntesis. Portanto, você deve gerar a gramática. Preste atenção nas precedências. Use a palavra chave fact para representar o fatorial e absoluto para representar o valor absoluto.
+
+Entregue o arquivo com a gramática, o programa que implementa o LISTENER e o programa principal que instancia o léxico, sintático e o avaliador de expressões (LISTENER). 
+
+Comprima todos os arquivos em um único arquivo zipado. Coloque o nome do arquivo o nome o aluno.
