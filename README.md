@@ -25,29 +25,18 @@ pip install antlr4-tools
 pip install antlr4-python3-runtime
 ```
 
-#### Se quiser usar com visitor sem gerar listener
+### Visitor
 ```
 antlr4 -Dlanguage=Python3 -visitor Expr.g4
 ```
-
+#### Se quiser usar com visitor sem gerar listener
 ```
 java -jar antlr-4.13.2-complete.jar -Dlanguage=Python3 -no-listener -visitor miniC.g4
 ```
 
+### Ambos
 ```
-java -jar antlr-4.13.2-complete.jar -Dlanguage=Python3 -no-listener -visitor Html.g
-```
-
-```
-java -jar antlr-4.13.2-complete.jar -Dlanguage=Python3 -no-listener -visitor SimpleLang.g4
-```
-
-```
-java -jar antlr-4.13.2-complete.jar -Dlanguage=Python3 -no-listener -visitor ThreeAddressCode.g4
-```
-
-```
-java -jar antlr-4.13.2-complete.jar -Dlanguage=Python3 -no-listener -visitor SimpleLang.g
+java -jar antlr-4.13.2-complete.jar -Dlanguage=Python3 -listener -visitor Html.g
 ```
 
 🚨 Observação importante, lembre-se de sempre deixar o antlr-4.13.2-complete.jar dentro da pasta que pretende gerar os tokens.
