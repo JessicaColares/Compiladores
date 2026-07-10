@@ -1,5 +1,5 @@
 # 💻 Compiladores 
-Trabalhos realizados na disciplina de Compiladores
+Trabalhos realizados na disciplina de Compiladores e Scripts de correção para usar na monitoria.
 
 ---
 
